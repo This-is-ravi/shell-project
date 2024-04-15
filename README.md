@@ -1,10 +1,9 @@
 # shell-project
-shell scripting example
-proxy_http_version 1.1;
 
-location /api/ { proxy_pass http://localhost:8080/; }
-
-location /health {
-  stub_status on;
-  access_log off;
-}
+steps:
+*create the repo in github
+*clone your code(repo) in local laptop
+*start devloping
+*add the file in temp area
+*commit the changes
+*push the changes to github
