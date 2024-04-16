@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#declaration of var
+$person1=ravi
+$person2=amar
 
-echo person1:: hello person2
-echo person2::S
+#ref the var
+echo "$person1:: hello $person2, how r u?"
+echo "$person2:: hello $person1, iam fine"
